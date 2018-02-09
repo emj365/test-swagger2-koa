@@ -1,0 +1,20 @@
+swagger: '2.0'
+info:
+  description: This is user data service for EIC Vocab App.
+  version: 1.0.0
+  title: Vocab App Users Data Service
+  contact:
+    email: emj365@gmail.com
+paths:
+  /ping:
+    get:
+      summary: Add a word to learnd words with current user
+      description: ''
+      responses:
+        200:
+          description: 'OK'
+          schema:
+            type: object
+            properties:
+              serverTime:
+                type: string

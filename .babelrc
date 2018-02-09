@@ -1,0 +1,10 @@
+{
+  "plugins": ["dynamic-import-node"],
+  "presets": ["env"],
+  "env": {
+    "production": {
+      "presets": ["minify"]
+    }
+  }
+}
+
