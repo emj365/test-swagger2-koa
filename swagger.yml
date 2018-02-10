@@ -5,6 +5,11 @@ info:
   title: Vocab App Users Data Service
   contact:
     email: emj365@gmail.com
+schemes:
+  - http
+  - https
+host: localhost:3000
+basePath: /api
 paths:
   /ping:
     get:
