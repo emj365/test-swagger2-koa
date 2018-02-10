@@ -2,7 +2,7 @@ import { ui, router as swaggerRouter, Router } from 'swagger2-koa'
 
 let router = swaggerRouter(__dirname + '/swagger.yml')
 
-router.get('/ping', async context => {
+router.get('/api/ping', async context => {
   context.status = 200
   context.body = {
     serverTime: new Date().toISOString()
